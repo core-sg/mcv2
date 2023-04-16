@@ -1,10 +1,33 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "MCSEAchEndEye",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mcse_ach_end_eye"
+    },
+    {
+      "name": "MCSESlabDirt",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mcse_slab_dirt"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "advancements.mcse_ach_end_eye.title": "The Eye, The Way",
+      "advancements.mcse_ach_end_eye.descr": "Get an Eye of Ender.",
+      "block.mcse.mcse_slab_dirt": "Dirt Slab"
+    }
   },
   "foldersRoot": {
     "name": "~",

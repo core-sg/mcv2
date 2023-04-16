@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mcse:blocks/dirt",
+    "particle": "mcse:blocks/dirt"
+  }
+}
