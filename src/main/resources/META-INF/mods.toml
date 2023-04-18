@@ -1,14 +1,17 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="mcse"
-version="1.0.0"
+version="0.1.3"
 displayName="MCv2"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Created using MCreator.net"
 displayURL="https://mcreator.net"
-authors="Aedan, MCreator"
+authors="CubeUltm"
+description='''
+Modern Minecraft for Java 8.
+'''
 
 [[dependencies.mcse]]
     modId="minecraft"

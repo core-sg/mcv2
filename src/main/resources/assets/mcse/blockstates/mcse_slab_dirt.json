@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
+    "type=bottom": {
       "model": "mcse:block/mcse_slab_dirt"
+    },
+    "type=top": {
+      "model": "mcse:block/mcse_slab_dirt_top"
+    },
+    "type=double": {
+      "model": "mcse:block/mcse_slab_dirt_full"
     }
   }
 }

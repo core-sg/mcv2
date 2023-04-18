@@ -1,0 +1,19 @@
+{
+  "group": "dirt",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "result": {
+    "item": "mcse:mcse_slab_dirt",
+    "count": 6
+  }
+}
