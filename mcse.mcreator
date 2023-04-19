@@ -38,22 +38,69 @@
       "registry_name": "mcses_grass_craft"
     },
     {
-      "name": "MCSEDungCakes",
+      "name": "MCSECowDung",
       "type": "item",
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mcse_dung_cakes"
+      "registry_name": "mcse_cow_dung"
     },
     {
-      "name": "MCSEFDungCakes",
-      "type": "fuel",
+      "name": "MCSEDungCake",
+      "type": "block",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mcsef_dung_cakes"
+      "registry_name": "mcse_dung_cake"
+    },
+    {
+      "name": "MCSEDungCakeCraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mcse_dung_cake_craft"
+    },
+    {
+      "name": "MCSEDungCakeFuel",
+      "type": "fuel",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mcse_dung_cake_fuel"
+    },
+    {
+      "name": "MCSEDropCowDung",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mcse_drop_cow_dung",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -61,8 +108,9 @@
   "language_map": {
     "en_us": {
       "advancements.mcse_ach_end_eye.title": "The Eye, The Way",
+      "item.mcse.mcse_cow_dung": "Cow Dung",
       "advancements.mcse_ach_end_eye.descr": "Get an Eye of Ender.",
-      "item.mcse.mcse_dung_cakes": "MCSE Dung Cakes",
+      "block.mcse.mcse_dung_cake": "Dung Cake",
       "block.mcse.mcse_slab_dirt": "Dirt Slab"
     }
   },

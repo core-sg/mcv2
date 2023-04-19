@@ -7,19 +7,19 @@ import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.item.ItemStack;
 
-import net.mcreator.mcse.item.MCSEDungCakesItem;
+import net.mcreator.mcse.block.MCSEDungCakeBlock;
 import net.mcreator.mcse.McseModElements;
 
 @McseModElements.ModElement.Tag
-public class MCSEFDungCakesFuel extends McseModElements.ModElement {
-	public MCSEFDungCakesFuel(McseModElements instance) {
-		super(instance, 7);
+public class MCSEDungCakeFuelFuel extends McseModElements.ModElement {
+	public MCSEDungCakeFuelFuel(McseModElements instance) {
+		super(instance, 9);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	@SubscribeEvent
 	public void furnaceFuelBurnTimeEvent(FurnaceFuelBurnTimeEvent event) {
-		if (event.getItemStack().getItem() == new ItemStack(MCSEDungCakesItem.block, (int) (1)).getItem())
+		if (event.getItemStack().getItem() == new ItemStack(MCSEDungCakeBlock.block, (int) (1)).getItem())
 			event.setBurnTime(1200);
 	}
 }

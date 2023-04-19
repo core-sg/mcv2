@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mcse:block/mcse_dung_cake"
+    },
+    "type=top": {
+      "model": "mcse:block/mcse_dung_cake_top"
+    },
+    "type=double": {
+      "model": "mcse:block/mcse_dung_cake_full"
+    }
+  }
+}

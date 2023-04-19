@@ -1,6 +1,7 @@
 {
   "advancements.mcse_ach_end_eye.title": "The Eye, The Way",
+  "item.mcse.mcse_cow_dung": "Cow Dung",
   "advancements.mcse_ach_end_eye.descr": "Get an Eye of Ender.",
-  "item.mcse.mcse_dung_cakes": "MCSE Dung Cakes",
+  "block.mcse.mcse_dung_cake": "Dung Cake",
   "block.mcse.mcse_slab_dirt": "Dirt Slab"
 }
